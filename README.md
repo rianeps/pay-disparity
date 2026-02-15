@@ -1,4 +1,6 @@
-# Pay Disparity — visualizing gender pay gaps through scrollytelling
+# Pay Disparity
+### Visualizing gender pay gaps through scrollytelling
+
 
 I built this project to level up my coding skills and move beyond basic, static charts. I am using D3.js to create dynamic, animated SVG visualizations that are more engaging than standard graphs. This project is a way to implement scrollytelling by using Scrollama to trigger visual updates as a user moves through the page. Because I am interested in data journalism, I am exploring how web apps can take complex structural issues like the gender pay gap and make them easier to visualize and understand.
 
