@@ -13,7 +13,7 @@ Demo
 - https://rianeps.github.io/pay-disparity/
 - To preview locally, open index.html via a static server (instructions below).
 
-Q## How to Run Locally
+## How to Run Locally
 
 Clone the repository and serve the files using a local static server.
 
