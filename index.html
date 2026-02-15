@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Gap: A Data Story</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="styles.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <script type="importmap">
+  {
+    "imports": {
+      "d3": "https://esm.sh/d3@^7.9.0",
+      "scrollama": "https://esm.sh/scrollama@^3.2.0"
+    }
+  }
+  </script>
+</head>
+<body class="bg-[#0a0a0a]">
+  <div id="tooltip"></div>
+
+  <section class="landing-section px-6">
+    <div class="max-w-4xl">
+      <div class="mb-4 text-pink-500 font-bold tracking-widest uppercase text-sm">A Data Journalism Project</div>
+      <h1 class="text-6xl md:text-8xl font-black text-white mb-8 leading-tight">The Unseen <span class="text-indigo-500">Tax</span></h1>
+      <p class="text-xl md:text-2xl text-gray-400 font-light leading-relaxed max-w-2xl mx-auto">
+        Exploring the compounding reality of the gender pay gap. Scroll to uncover the statistics that shape careers and lives.
+      </p>
+    </div>
+    <div class="scroll-indicator flex flex-col items-center gap-2">
+      <span class="text-[10px] uppercase tracking-widest text-gray-500">Scroll to begin</span>
+      <svg class="w-6 h-6 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path></svg>
+    </div>
+  </section>
+
+  <main class="relative pb-64">
+    <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row gap-32 relative min-h-screen">
+      <!-- Left Column: Narrative -->
+      <div id="narrative-container" class="w-full md:w-1/2 pr-0 md:pr-12">
+        <!-- Steps will be injected here by index.js -->
+      </div>
+
+      <!-- Right Column: Visual -->
+      <div class="w-full md:w-1/2 relative">
+        <div class="sticky-visual-container">
+          <div id="visualization" class="w-full h-full p-6"></div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script type="module" src="index.js"></script>
+</body>
+</html>
