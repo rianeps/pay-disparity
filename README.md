@@ -7,7 +7,7 @@ The project is inspired by visual storytelling platforms like The Pudding and r2
 
 Why this project
 - Learn D3 patterns: joins, scales, axes, transitions, and small-multiples layout
-- Improve visual communication: clarity, annotation, accessible color choices, and showing uncertainty/sample sizes
+
 
 Demo
 - https://rianeps.github.io/pay-disparity/
