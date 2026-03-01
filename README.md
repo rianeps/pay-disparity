@@ -7,7 +7,6 @@ The project is inspired by visual storytelling platforms like The Pudding and r2
 
 Why this project
 - Learn D3 patterns: joins, scales, axes, transitions, and small-multiples layout
-- Practice scrollytelling: synchronize text-driven narrative with visualization changes
 - Improve visual communication: clarity, annotation, accessible color choices, and showing uncertainty/sample sizes
 
 Demo
